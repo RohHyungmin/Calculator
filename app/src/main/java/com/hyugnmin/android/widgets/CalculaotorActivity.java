@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 
 
-public class widget extends AppCompatActivity implements View.OnClickListener {
+public class CalculaotorActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button button_one;
     Button button_two;
@@ -36,7 +36,7 @@ public class widget extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_widget);
+        setContentView(R.layout.activity_calculator);
         button_one = (Button) findViewById(R.id.button_no1);
         button_two = (Button) findViewById(R.id.button_no2);
         button_three = (Button) findViewById(R.id.button_no3);
