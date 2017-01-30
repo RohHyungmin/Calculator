@@ -26,4 +26,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_calculator" />
 
+    <Button
+        android:text="widjets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_widjets" />
+
+    <Button
+        android:text="Convertor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUnit" />
+
 </LinearLayout>

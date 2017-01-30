@@ -220,6 +220,8 @@ public class CalculaotorActivity extends AppCompatActivity implements View.OnCli
         }
         return Double.parseDouble(list.get(0));
     }
+
+    
 }
 
 
